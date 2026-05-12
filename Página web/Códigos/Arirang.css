@@ -115,3 +115,67 @@ html, body {
 }
 
 
+/*SETLIST*/
+
+
+.arirang-theme {
+    background-color: black; 
+    padding: 100px 20px;
+    text-align: left;
+}
+
+.tape-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+
+.tape-item {
+    font-family: 'Arial Black', sans-serif; 
+    font-size: 2.5rem;
+    color: white;
+    padding: 5px 25px;
+    margin-bottom: 8px;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+/* Colores de las cintas */
+.tape-item.red { background-color: #ff0000; }
+.tape-item.black { background-color: white; color: black; }
+
+.tape-item .num {
+    font-size: 1rem;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+
+.tape-item:nth-child(even) {
+    margin-left: 20px; 
+    transform: rotate(-1deg); 
+}
+
+.tape-item:nth-child(3n) {
+    margin-left: -10px; 
+    transform: rotate(1deg);
+}
+
+.tape-item:nth-child(7) {
+    font-size: 3rem; 
+    margin-left: 10px;
+}
+
+.track-main-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    color: white; 
+    margin-bottom: 40px;
+    mix-blend-mode: difference; 
+    text-align: center;
+}

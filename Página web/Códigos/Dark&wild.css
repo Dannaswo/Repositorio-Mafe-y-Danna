@@ -113,3 +113,53 @@ html, body {
     font-size: 1rem;
     color: #BEBEBE;
 }
+
+
+/*CONFIGURACION SETLIST*/
+.track-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color:black; 
+}
+
+.track-main-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    color: #9D2020; 
+    margin-bottom: 40px;
+    mix-blend-mode: difference; 
+}
+
+.track-list-wrapper {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.track-item {
+    display: grid;
+    grid-template-columns: 60px 1fr auto; 
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #F8F8F8;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.track-number {
+    font-size: 1.2rem;
+    color: #9D2020;
+    text-align: left;
+}
+
+.track-name {
+    font-size: 1.4rem;
+    color: #F8F8F8;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.track-time {
+    font-size: 1.1rem;
+    color: #BEBEBE;
+    font-family: Arial, sans-serif; 
+}
+
