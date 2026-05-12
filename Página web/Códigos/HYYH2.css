@@ -57,6 +57,9 @@ html, body {
 .navbar h2{
     font-family: 'Bebas Neue', serif; 
     color: #516A7C;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: left;
+    white-space: nowrap;
+    display: inline-block;
+    width: auto;
 }
