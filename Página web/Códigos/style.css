@@ -1,32 +1,55 @@
-/*header*/
+/* Configuracion header*/
 .navbar {
-    grid-area: header;
-    display:grid;
-    grid-template-columns: auto 1fr auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 5%;
     background-color: black;
-    border-bottom: 1px solid #333;
     height: 90px;
+    border-bottom: 1px solid #333;
 }
-
+/*configuracion a la pagina en general*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    height: 45px;
+    width: 45px;
+}
+h2 {
+    color: white;
+    font-family: 'Bebas Neue', serif; 
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+.lang-section {
+    color: white;
+    font-family: 'Bebas Neue', serif; 
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align:end;
+}
 
 /*background*/
-body {
-    background-color:de black;
+html, body {
+    background-color: black;
+    width: 100%;
     margin: 0;
-    color: white;
+    min-height: 100vh;
+}
+/*centrar las letras header*/
+.main-menu {
+    display: flex;
+    gap: 30px;
+}
 
-}
 .main-menu a {
-    color: red;
-    text-decoration: none;
-    font-family: "Audiowide", sans-serif;
+    color: white;
+    font-family: 'Bebas Neue', serif; 
     font-size: 2rem;
-    letter-spacing: 2px;
-    margin: 0 20px;
-    transition: color 0.3s;
+    margin-top: 20px;
+    text-align: auto;
 }
-/* .main-menu a: hover{
-    color: #aaa;
-} */
