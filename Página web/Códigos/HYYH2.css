@@ -63,3 +63,106 @@ html, body {
     display: inline-block;
     width: auto;
 }
+
+
+/*Configuracion contenido*/
+.album-detail {
+    display: flex;         
+    align-items: flex-start; 
+    padding: 100px 50px;  
+    gap: 60px;            
+    background-color: #E6E5E7;
+    min-height: 100vh;    
+}
+
+.album-visual {
+    flex: 1;              
+    display: flex;
+    justify-content: center;
+}
+
+.album-visual img {
+    width: 100%;        
+    max-width: 500px;    
+    height: auto;
+}
+
+.album-description {
+    flex: 1;               
+    color: #333;
+    text-align: left;
+}
+
+.album-type {
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(61, 71, 78);     
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.album-main-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;     
+    line-height: 1;
+    margin-bottom: 30px;
+    color: #516A7C;
+}
+
+.album-text-content p {
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6;      
+    font-size: 1rem;
+    color: #333;
+}
+
+
+/*setlist*/
+.track-section {
+    padding: 80px 20px;
+    background-color: transparent; 
+    text-align: center;
+}
+
+.track-main-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 6rem;
+    color: #516A7C; 
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.track-list-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.track-item {
+    display: grid;
+    grid-template-columns: 50px 1fr auto; 
+    align-items: center;
+    padding: 12px 0;
+    font-family: 'Bebas Neue', sans-serif; 
+    border-bottom: 1px solid #B4B6B9; 
+}
+
+.track-number {
+    font-size: 1.2rem;
+    color: #72BEEE;
+    font-weight: bold;
+}
+
+.track-name {
+    font-size: 1.5rem;
+    color: #516A7C;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.track-time {
+    font-size: 1.2rem;
+    color: #333;
+    margin-left: 20px;
+}
+

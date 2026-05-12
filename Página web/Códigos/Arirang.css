@@ -37,7 +37,7 @@ html, body {
     display: flex;
     justify-content: flex-end; 
     padding: 20px 30px;
-    background-color: rgb(70, 6, 6);
+    background-color: #460606;
     
 }
 .simple-link {
@@ -64,5 +64,54 @@ html, body {
 
 
 
+/*Configuracion contenido*/
+.album-detail {
+    display: flex;         
+    align-items: flex-start; 
+    padding: 100px 50px;  
+    gap: 60px;            
+    background-color: black;
+    min-height: 100vh;    
+}
+
+.album-visual {
+    flex: 1;              
+    display: flex;
+    justify-content: center;
+}
+
+.album-visual img {
+    width: 100%;        
+    max-width: 500px;    
+    height: auto;
+}
+
+.album-description {
+    flex: 1;               
+    text-align: left;
+}
+
+.album-type {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #700808;     
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.album-main-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;     
+    line-height: 1;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.album-text-content p {
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6;      
+    font-size: 1rem;
+    color: #bebebe;
+}
 
 

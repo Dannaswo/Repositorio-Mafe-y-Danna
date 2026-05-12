@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
-    background-color: black;
+    background-color: #AACEE5;
     height: 90px;
     border-bottom: 2px solid #333;
     gap: 20px;
@@ -17,7 +17,7 @@
 }
 /*background*/
 html, body {
-    background-color: black;
+    background-color: #AACEE5;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -58,10 +58,104 @@ html, body {
 
 .navbar h2{
     font-family: 'Bebas Neue', serif; 
-    color: white;
+    color: #141923;
     font-size: 3rem;
     text-align: left;
     white-space: nowrap;
     display: inline-block;
     width: auto;
+}
+
+
+/*Configuracion contenido*/
+.album-detail {
+    display: flex;         
+    align-items: flex-start; 
+    padding: 100px 50px;  
+    gap: 60px;            
+    background-color: #141923;
+    min-height: 100vh;    
+}
+
+.album-visual {
+    flex: 1;              
+    display: flex;
+    justify-content: center;
+}
+
+.album-visual img {
+    width: 100%;        
+    max-width: 500px;    
+    height: auto;
+}
+
+.album-description {
+    flex: 1;               
+    text-align: left;
+}
+
+.album-type {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #AACEE5;     
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.album-main-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;     
+    line-height: 1;
+    margin-bottom: 30px;
+    color: #DEAECA;
+}
+
+.album-text-content p {
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6;      
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+/*setlist*/
+.tracklist-section {
+    background-color: #141923;
+    padding: 60px 20px;
+    text-align: center; 
+}
+
+.tracklist-title {
+    font-family: 'Bebas Neue', sans-serif;
+    color:#f5c9ca;
+    font-size: 5rem; 
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+}
+
+.tracklist-container {
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+.track-list {
+    list-style-position: inside; 
+    color: #AACEE5; 
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 2; 
+}
+
+.track-list li {
+    border-bottom: 1px solid #f8cdb9; 
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.duration {
+    color: #bbb8e1; 
+    font-weight: normal;
+    margin-left: 20px;
 }
