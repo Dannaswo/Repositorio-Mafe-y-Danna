@@ -123,3 +123,104 @@ html, body {
     cursor: pointer;
     white-space: nowrap;  
 }
+
+/*configuracion albumes*/
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    background-color: black;
+}
+
+.album-card {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease;
+    font-family: 'bebas neue', sans-serif;
+    font-size: 1.5rem;
+}
+
+.album-card:hover {
+    transform: translateY(-5px); /*efecto de elevacion al pasar el mouse*/
+}
+
+.album-image img {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.album-info h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/*configuracion footer*/
+.main-footer {
+    background-color: black;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    font-family: 'Bebas Neue', sans-serif; 
+    border-top: 1px solid #222;
+}
+
+.footer-middle img {
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    padding: 10px 0;         
+    background-color: black;
+}
+
+.footer-logo-img {
+    width: 60%;             
+    max-width: 700px;
+    max-height: 300px;                   
+    display: block;          
+    filter: brightness(1);   
+    opacity: 0.9;            
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+    font-family: 'bebas neue', sans-serif;
+}
+.footer-center {
+    display: flex;
+    gap: 15px;
+    font-family: 'bebas neue', sans-serif;
+}
+
+.family-sites {
+    display: inline-block;
+    margin-left: 20px;
+    border: 1px solid white;
+    padding: 2px 10px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}
